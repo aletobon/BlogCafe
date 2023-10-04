@@ -40,9 +40,32 @@
 
     <main class="contenedor">
 
-        <h1 class="centrar-texto"></h1>
+        <h1 class="centrar-texto"> Datos de cotacto</h1>
 
         <div class="contacto-blog"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input type="text" class="campo__field" placeholder="Tu nombre" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input type="text" class="campo__field" placeholder="Tu e-mail" id="email">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" class="boton boton--primario" value="Enviar">
+            </div>
+
+
+        </form>
 
        
     </main>
